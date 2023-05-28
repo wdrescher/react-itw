@@ -1,18 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import SplashboardCTA from './Splashboard/Splashboard-CTA/Splashboard-CTA';
+
+import Splashboard from './Splashboard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <SplashboardCTA 
-          displayButton={true}
-          header="Find Your Soldier"
-          subtext="Search By Unit Name or Select Your Installation"
-          buttonText="Search"
-          buttonClick={() => console.log("ALERT")}
-        />
+        <Splashboard displayLeftMode={false}></Splashboard>
+        <Splashboard displayLeftMode={true}></Splashboard>
       </header>
     </div>
   );

@@ -1,0 +1,15 @@
+@import '/src/styles/variables.scss';
+
+.splashboard-nav {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    @include blur;
+    padding: 12px 0 12px 0;
+
+    &__item {
+        font-size: $font-size-md;
+        font-weight: 100;
+    }
+}

@@ -5,3 +5,7 @@ $font-size-xl: 64px;
 
 $white: #ffffff;
 $black: #000000;
+
+@mixin blur {
+    background: rgba(0, 0, 0, 0.3);
+}
