@@ -1,0 +1,19 @@
+@import '/src/styles/variables.scss';
+
+.sandwich {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-top: white 1px solid;
+    padding: 1rem 0 1rem 0;
+    border-bottom: white 1px solid;
+    max-width: 30rem;
+
+    &__heading {
+        display: flex;
+        color: white;
+        font-size: $font-size-lg;
+        overflow: wrap;
+    }
+}

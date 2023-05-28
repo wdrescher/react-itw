@@ -1,0 +1,9 @@
+@import '/src/styles/variables.scss';
+
+.button {
+    background-color: $white;
+    color: $black;
+    padding: 4px;
+    font-size: $font-size-md;
+    width: 80%;
+}

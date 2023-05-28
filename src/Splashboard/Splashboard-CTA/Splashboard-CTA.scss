@@ -1,0 +1,16 @@
+@import '/src/styles/variables.scss';
+
+.splashboard-cta {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    &__subtext {
+        padding: 4px 0 4px 0;
+        color: white; 
+        font-size: $font-size-sm;
+        max-width: 80%;
+        overflow: wrap;
+    }
+}
